@@ -18,28 +18,5 @@ public class RadioButton extends HomePage {
         super(driver);
     }
 
-    public void SetValue(String value)
-    {
-        switch (value) {
-            case "paragraphs":
-                paragraphsRadiobutton.click();
-                break;
-            case "words":
-                wordsRadiobutton.click();
-                break;
-
-            case "bytes":
-                bytesRadiobutton.click();
-                break;
-
-            case "lists":
-                listsRadiobutton.click();
-                break;
-            default:
-                System.out.println("Invalid radiobutton");
-                break;
-        }
-    }
-
 
 }
